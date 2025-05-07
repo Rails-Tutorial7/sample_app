@@ -1,0 +1,18 @@
+current directory: /home/vscode/environment/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/usr/local/rvm/rubies/ruby-3.2.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/vscode/environment/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250507-24887-rb8ec6 sitelibdir\=./.gem.20250507-24887-rb8ec6 clean
+
+current directory: /home/vscode/environment/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250507-24887-rb8ec6 sitelibdir\=./.gem.20250507-24887-rb8ec6
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/vscode/environment/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250507-24887-rb8ec6 sitelibdir\=./.gem.20250507-24887-rb8ec6 install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250507-24887-rb8ec6/racc
+
+current directory: /home/vscode/environment/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250507-24887-rb8ec6 sitelibdir\=./.gem.20250507-24887-rb8ec6 clean
