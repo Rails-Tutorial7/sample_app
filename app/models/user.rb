@@ -37,7 +37,7 @@ class User < ApplicationRecord
 
   # 渡されたトークンがダイジェストと一致したらtrueを返す
   def authenticated?(attribute, token)
-    digest = send("#{attribute}_digest")
+    digest = send("#{attribute}_digest") # もし attribute が :remember なら、self.remember_digest が呼び出される
     return false if digest.nil?
     BCrypt::Password.new(digest).is_password?(token)
   end
